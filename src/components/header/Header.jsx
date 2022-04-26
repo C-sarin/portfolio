@@ -1,9 +1,27 @@
 import React from 'react'
 import './header.css'
+import CTA from './CTA'
+import HeaderSocials from './HeaderSocials'
+import ME from '../../assets/shape.png'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <div className="container header__container">
+        <h5>Hola! Soy</h5>
+        <h1>César Ciotti</h1>
+        <h5 className="text-light">Frontend Developer</h5>
+        <CTA />
+        <HeaderSocials/>
+        <div className='me'>
+          <img src={ME} alt="me" />
+        </div>
+        <div>
+        <a href="#contact" className='scroll__down'>Scroll Down</a>
+        </div>
+
+      </div>
+    </header>
   )
 }
 
