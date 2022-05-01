@@ -1,9 +1,12 @@
+
 {
   "name": "my-portfolio",
+  "homepage": "https://ciottisweb.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.1.3",
+    "emailjs-com": "^3.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
